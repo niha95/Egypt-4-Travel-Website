@@ -1,0 +1,855 @@
+.page-body
+{
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+a:hover,a:focus, i
+{
+    text-decoration: none;
+    transition: ease all 0.4s;
+}
+/* header */
+
+header
+{
+    background: #451717;
+    color: #e5e3e3;
+    padding-top: 5px;
+}
+header .container div
+{
+    display: inline-block;
+}
+header .social
+{
+    float: right;
+}
+header .social i
+{
+    background:#e5e3e3;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    padding-top: 6px;
+    color: #451717;
+    border-radius: 50%;
+    font-size: 18px;
+}
+header .social i:hover,
+header .social i:focus
+{
+    background: #f48254;
+}
+header .info 
+{
+    margin-left: 15px;
+}
+header .info i
+{
+    color: #f48254;
+}
+
+/* -- start-navbar -- */
+
+.navigationbar
+{
+    background: #893d2d;
+    position: relative;
+}
+.navigationbar .navbar-default
+{
+    background: transparent;
+    border-color:transparent;
+    padding-top: 20px;
+    margin-bottom: 0;
+}
+.navigationbar .navbar-default .navbar-nav>li>a
+{
+    color: #e5e3e3;
+}
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover,
+.navigationbar .navbar-default .navbar-nav>li>a:hover,
+.navigationbar .navbar-default .navbar-nav>li>a:focus
+{
+    background:#f48254; 
+}
+.navigationbar .navbar-default .navbar-brand
+{
+    position: absolute;
+    left: 45%;
+    z-index: 1;
+    bottom: -35px;
+}
+.navigationbar .navbar-default .navbar-brand img
+{
+    background: #893d2d;
+    border:4px solid #684e0f;
+    border-top: 0;
+    height: 120px;
+}
+
+/* -- start-slider --*/
+
+.egypt4travel-slider
+{
+    position: relative;
+    z-index: 0;
+}
+.egypt4travel-slider .carousel-inner .item img
+{
+    height: 600px;
+    width: 100%;
+}
+
+/* -- start-search-section --*/
+
+.search-section
+{
+    position: absolute;
+    bottom: 25px;
+    left: 35%;
+}
+.search-section .col
+{
+    background: rgba(69, 23, 23, 0.82);
+    border-radius: 25px;
+    color: #f48254;
+}
+.search-section .col h3
+{
+    color: white;
+    border-bottom: 2px solid #f48254;
+    padding-bottom: 10px;
+}
+.search-section .col label
+{
+    font-weight: normal;
+}
+.search-section .col .form-control
+{
+    border-radius: 15px;
+}
+.search-section .col .input-group .form-control
+{
+    border-radius: 0 15px 15px 0;
+}
+.search-section .col .input-group span
+{
+    border-radius: 15px 0 0 15px;
+}
+.search-section .col .btn
+{
+    background: #f48254;
+    border-radius: 25px;
+    color: #451717;
+    margin-bottom: 5px;
+}
+
+/* -- start-news-bar -- */
+
+.news-bar 
+{
+    background: #f48254;
+    position: relative;
+    z-index: 1;
+}
+.news-bar .container div
+{
+    display: flex;
+    align-items: center;
+}
+.news-bar .container div span a
+{
+    color: white;
+}
+.news-bar .container div span a:hover,
+.news-bar .container div span a:focus
+{
+    color: #f48254;
+}
+.news-bar .container div span
+{
+    background: #451717;
+    padding: 20px 5px;
+    color: white;
+}
+.news-bar marquee
+{
+    background: white;
+    padding: 10px 5px;
+    width: 89%;
+    margin: 5px 0;
+}
+.news-bar marquee a
+{
+    color: black;
+}
+.news-bar marquee img
+{
+    display: inline-block;
+    height: 25px;
+}
+
+/* start-welcome-site */
+
+.welcome-site
+{
+    margin-bottom: 20px;
+}
+.welcome-site .bg
+{
+    position: absolute;
+    top:20px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+}
+.welcome-site .bg div
+{
+    border: 7px solid #d9d9d9;
+    height: 80px;
+    margin-left: 55%;
+    width: 170px;
+    margin-top: 30px;
+}
+.welcome-site .bg h1
+{
+    font-size: 80px;
+    font-weight: bold;
+    color: rgba(244, 130, 84, 0.5);
+    /* font-family: sans-serif; */
+    margin-top: -10px;
+}
+.welcome-site .about-site
+{
+   position: relative;
+    z-index: 1;
+}
+.welcome-site .about-site p
+{
+    margin-left: 32%;
+}
+.welcome-site .about-site h3
+{
+    text-align: center;
+    margin-top: 65px;
+    margin-bottom: 80px;
+    color: #451717;
+}
+.welcome-site .about-site h3 span
+{
+    display: block;
+    margin-bottom: 5px;
+    color: #f48254;
+}
+.welcome-site img
+{
+    width: 100%;
+    height: 350px;
+}
+
+/* start-package-section */
+
+.head-title
+{
+    text-align: center;
+}
+.head-title img
+{
+    margin: auto;
+}
+.head-title h1,
+.head-title h3
+{
+    margin-top: 0;
+    color: #451717;
+}
+.head-title h3
+{
+    color:#f48254; 
+    margin-bottom: 30px;
+}
+
+.package-section .package
+{
+    position: relative;
+    box-shadow: 0px 0px 3px 0px black;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    transition: ease all 0.5s;
+}
+.package-section .package img
+{
+    width: 100%;
+    height: 180px;
+    border-radius: 5px 5px 0 0;
+    border-bottom: 4px solid #451717;
+}
+.package-section .package .price
+{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #451717;
+    color: white;
+    padding: 3px 5px;
+    border-radius: 15px;
+}
+.package-section .package i
+{
+    height: 60px;
+    width: 60px;
+    background: #451717;
+    color: white;
+    padding-top: 10px;
+    text-align: center;
+    border-radius: 50%;
+    border: 3px solid white;
+    margin-top: -25px;
+    z-index: 1;
+    position: relative;
+
+}
+.package-section .package .title
+{
+    padding: 5px;
+    margin-bottom: 5px;
+    color: #83868c;
+}
+.package-section .package .category
+{
+    color: #f48254;
+}
+.package-section .package .rating
+{
+    color: #b9b2b2;
+}
+.package-section .package .rating span
+{
+  color:#451717;    
+}
+.package-section .col-sm-3:nth-child(even) .package i,
+.package-section .col-sm-3:nth-child(even) .package .price
+{
+    background: #f48254;
+}
+.package-section .col-sm-3:nth-child(even) .package .rating span
+{
+    color: #f48254;
+}
+.package-section .col-sm-3:nth-child(even) .package .category
+{
+    color: #451717;
+}
+.package-section .col-sm-3:nth-child(even) .package img
+{
+    border-color: #f48254;
+}
+
+.package-section .col-sm-6 .package i
+{
+    margin-left: 15px;
+}
+.package-section .col-sm-6 .package .package-title
+{
+    position: absolute;
+    top: 145px;
+    left: 15%;
+    font-size: 21px;
+}
+.package-section .col-sm-6 .package .package-title .category,
+.package-section .col-sm-6 .package .package-title .rating
+{
+    color: white;
+}
+.package-section .col-sm-6 .package .package-title .rating span
+{
+    color: #f48254;
+}
+.package-section .col-sm-6:nth-child(odd) .package i
+{
+    background: #f48254;
+}
+.package-section .col-sm-6:nth-child(odd) .package img
+{
+    border-color: #f48254;
+}
+.package-section .package .review
+{
+    display: flex;
+    color: #b9b2b2;
+    margin-top: 10px;
+}
+.package-section .package .review img
+{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border-bottom: 0;
+    margin: 15px;
+    margin-top: 5px;
+    border:3px solid #b9b2b2 !important;
+}
+.package-section .package .review .lead
+{
+    margin-bottom: 5px;
+    color: #667181;
+}
+.package-section .package .review a
+{
+    color:#667181;
+}
+.package-section a
+{
+    display: block;
+    margin: 10px auto;
+    font-size: 24px;
+    color: #f48254;
+}
+.package-section .package .showmore
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 176px;
+    background: rgba(244, 130, 84, 0.85);
+    display: none;
+    transition: ease all 0.5s;
+}
+.package-section .package .showmore .btn
+{
+    color: white;
+    background: rgba(69, 23, 23, 0.5);
+    border:3px solid white;
+    border-radius: 25px;
+    width: 70%;
+    z-index: 0;
+}
+
+.package-section .col-sm-3:nth-child(even) .package .showmore .btn
+{
+    background:rgba(244, 130, 84, 0.5); 
+}
+.package-section .col-sm-3:nth-child(even) .package .showmore
+{
+     background: rgba(69, 23, 23, 0.85);
+}
+.package-section .package:hover .showmore
+{
+    display: block;
+}
+
+/* start-newsletter-section */
+
+.newsletter-section .col-sm-4 div
+{
+    background: #f48254;
+    margin-bottom: 20px;
+}
+.newsletter-section .col-sm-4 div h4
+{
+    background: #451717;
+    width: 50%;
+    color: #f48254;
+    margin: auto;
+    margin-bottom: 5px;
+    padding: 10px 0;
+}
+.newsletter-section  form .form-group 
+{
+    margin-bottom: 5px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 5px;
+}
+.newsletter-section form .btn
+{
+    display: block;
+    margin: auto;
+    border-radius: 0;
+    background: #451717;
+    color: #f48254;
+}
+.newsletter-section .col-sm-4:nth-child(2) div 
+{
+    padding-bottom: 10px;
+}
+.newsletter-section .col-sm-4:nth-child(2) div h4
+{
+    margin-bottom: 20px;
+}
+.newsletter-section .col-sm-4:nth-child(2) form .btn
+{
+    margin: 7px auto;
+}
+.newsletter-section .col-sm-4:nth-child(2) form .form-group
+{
+    margin-bottom: 15px;
+}
+.newsletter-section img
+{
+    width: 100%;
+    height: 175px;
+}
+
+/* start-tour-section */
+
+.trip-section
+{
+    margin:20px auto;
+    position: relative;
+    z-index: 1;
+}
+.trip-section h1 
+{
+    color: #451717;
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+}
+.trip-section h1 img
+{
+    display: inline-block
+}
+.trip-section .row 
+{
+    margin-top: 20px;
+}
+.trip-section .row img
+{
+    width: 100%;
+    height: 250px;
+}
+.trip-section .tour-name
+{
+    position: relative;
+    margin-bottom: 20px;
+}
+.trip-section .tour-name div
+{
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+    right: 0;
+}
+
+.trip-section .tour-name div h2
+{
+    color: white;
+    margin: auto;
+    text-align: center;
+    transition: ease all 0.4s;
+}
+.trip-section .tour-name div h2:hover
+{
+    color:  #f48254;
+}
+.trip-section .tour-name div img
+{
+    display: block;
+    width: auto;
+    margin: auto;
+    max-height: 100px;
+}
+
+/* start-bottom-section */
+
+.bottom-section .container-fluid
+{
+    padding-left: 0;
+    padding-right: 0;
+}
+.bottom-section .contact-data
+{
+    background: url(../images/footer-bg.jpg) no-repeat right top;
+    background-size: cover;
+    position: relative;
+    z-index: 0;
+    margin-top: -35px;
+}
+.bottom-section .contact-data h3
+{
+    padding-top: 45px;
+    margin: auto;
+    margin-right: 70px;
+    text-align: center;
+    color: #451717;
+    margin-bottom: 30px;
+}
+.bottom-section .contact-data h3 span
+{
+    display: block;
+    color:  #f48254;
+}
+.bottom-section .contact-data form .form-group
+{
+    width: 50%;
+    margin-bottom: 5px;
+}
+.bottom-section .contact-data form .form-control::placeholder
+{
+    color: #f48254;
+}
+.bottom-section .contact-data form .form-control
+{
+    border:0;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0;
+    box-shadow: unset;
+    background: transparent;
+}
+.bottom-section .contact-data form .btn
+{
+    border:0;
+    background: transparent;
+    color: #f48254;
+    margin: auto;
+    display: block;
+}
+.bottom-section .contact-data form .btn i
+{
+    color: #ccc;
+}
+.bottom-section .address
+{
+    width: 130px;
+    margin: 0;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+.bottom-section p
+{
+    margin: 0;
+    margin-left: 5px;
+}
+.bottom-section .social
+{
+    float: right;
+    margin-right: 15%;
+    margin-top: -25px;
+}
+.bottom-section .social i
+{
+    color: #f48254;
+    font-size: 20px;
+}
+footer
+{
+    margin-top: 20px;
+    color: #893d2d;
+}
+footer a
+{
+    color: #893d2d;
+}
+footer a:hover,
+footer a:focus
+{
+    color: #f48254;
+}
+
+/*********************/
+
+.page-content
+{
+    background: #fafafa;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+.page-content h1
+{
+    color: #893d2d;
+}
+.page-content .list-tour img
+{
+    width: 100%;
+    height: 150px;
+}
+.line
+{
+    border-bottom: 5px solid #f48254;
+    width:100px;
+    margin-left: 0;
+}
+.service-page
+{
+    margin: 30px auto;
+}
+.service-page h3
+{
+    margin-top: 0.5rem;
+}
+.service-page h3 a
+{
+    color: #893d2d;
+}
+.service-page  a
+{
+    color: #f48254;
+}
+.service-page ul li
+{
+    display: flex;
+    margin-bottom: 0.5rem;
+    background: white;
+}
+.service-page ul li div
+{
+    margin: 1rem;
+}
+.service-page .price
+{
+    border-left: 5px solid #fafafa;
+    margin: 0;
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    padding-left: 0.5rem;
+    width: 150px;
+}
+.service-page .price p:first-child
+{
+    font-weight: bold;
+    color: #f48254;
+}
+.service-page .price p:last-child
+{
+    background: #f3f3f3;
+    padding: 0.5rem;
+    border-radius: 10px;
+    border-bottom: 3px solid #893d2d;
+    color: #893d2d;
+    font-weight: bold;
+    margin: 0.5rem ;
+}
+.service-page img
+{
+   height: 200px;
+    width: 350px;
+}
+
+
+.egy-pagination
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+.egy-pagination ul li
+{
+    display: inline-block;
+}
+.egy-pagination .page-item:last-child .page-link,
+.egy-pagination .page-item:first-child .page-link
+{
+    background: #451717;
+    color: #f48254;
+}
+.egy-pagination .page-item .page-link
+{
+    color: #f48254;
+}
+.egy-pagination .page-item .page-link:hover,
+.egy-pagination .page-item .page-link:focus
+{
+    color: #451717;
+    background: #f48254;
+}
+
+.tour-details-page #gallery
+{
+    width: 100% !important;
+    height: 400px !important;
+    max-width: none !important;
+}
+.tour-details-page tour-details-page.tour-head
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px auto;
+}
+.tour-details-page .tour-head .btn
+{
+    background: #451717;
+    width: 200px;
+    margin: 2rem auto;
+    color: white;
+}
+.tour-details-page .tour-head .btn:hover,
+.tour-details-page .tour-head .btn:focus
+{
+    background:  #f48254;
+}
+.tour-details-page .tour-head h1
+{
+    color: #893d2d;
+    margin: 1.5rem auto;
+    font-size: 3.5rem;
+}
+.tour-details-page .tour-head p
+{
+    margin-bottom: 0;
+    font-size: 17px;
+}
+.tour-details-page .details
+{
+    margin: 25px auto;
+    line-height: 27px;
+}
+.tour-details-page h3
+{
+    background: #f3f3f3;
+    padding: 0.3rem;
+    border-radius: 5px;
+    margin: 1rem auto;
+    border-bottom: 4px solid #893d2d;
+    color: #893d2d;
+}
+dl
+{
+    margin-left: 1rem;
+}
+dt
+{
+    font-weight: 700;
+    color: white;
+    background: #f48254;
+    width: 100px;
+    padding: 0.5rem;
+    text-align: center;
+    border-radius: 50%;
+    border: 2px dashed;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.booking-form .btn
+{
+    border-radius: 0;
+    background: #f48254;
+    color: #451717;
+    margin-bottom: 10px;
+}
+.list-tour h3
+{
+    margin: 0;
+    padding: 5px;
+    background: #e8e6e6;
+    margin-bottom: 20px;
+}
+.list-tour h3 a
+{
+    color: #893d2d;
+}

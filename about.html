@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>egypt4travel</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/fav-icon.png" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="images/fav-icon.png">
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css" />
+    <link href="https://fonts.googleapis.com/css?family=Quicksand|Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body class="container-fluid page-body">
+
+    <!-- start-top-head -->
+
+    <header>
+        <div class="container">
+            <div class="info">
+                <ul class="list-inline list-unstyled ">
+                    <li><i class="fa fa-envelope-o" aria-hidden="true"></i> info@egypt4travel.net</li>
+                    <li><i class="fa fa-phone" aria-hidden="true"></i> +1(650)555 1234 &nbsp; +1(650)385 6789</li>
+                </ul>
+            </div>
+            <div class="social">
+                <ul class="list-inline list-unstyled ">
+                    <li><i class="fa fa-facebook" aria-hidden="true"></i></li>
+                    <li><i class="fa fa-twitter" aria-hidden="true"></i></li>
+                    <li><i class="fa fa-youtube" aria-hidden="true"></i></li>
+                    <li><i class="fa fa-google-plus" aria-hidden="true"></i></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!-- End-top-head -->
+
+    <!-- start-navbar -->
+
+    <section class="navigationbar">
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span> 
+                  </button>
+                    <a class="navbar-brand" href="index.html"><img class="img-responsive" src="images/logo.png"></a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="index.html">Home</a></li>
+                        <li><a href="about.html">ABOUT US</a></li>
+                        <li><a href="service.html">OUR SERVICES</a></li>
+                        <li><a href="">OUR VISION</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#"> OUR GOALS</a></li>
+                        <li><a href="client.html">CLIENTS</a></li>
+                        <li><a href="product.html"> PRODUCTS</a></li>
+                        <li><a href="contact.html">CONTACT US</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <!-- End-navbar -->
+
+    <!-- start-slider -->
+
+    <section class="egypt4travel-slider">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="images/slide1.jpg" alt="egypt4travel-banner">
+                </div>
+
+                <div class="item">
+                    <img src="images/slide2.jpg" alt="egypt4travel-banner">
+                </div>
+
+                <div class="item">
+                    <img src="images/slide3.jpg" alt="egypt4travel-banner">
+                </div>
+                <div class="item">
+                    <img src="images/slide4.jpg" alt="egypt4travel-banner">
+                </div>
+                <div class="item">
+                    <img src="images/slide5.jpg" alt="egypt4travel-banner">
+                </div>
+            </div>
+
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+        <!-- start-search-section -->
+
+        <section class="search-section" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="1000">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-5 col">
+                        <h3><i class="fa fa-search fa-1x" aria-hidden="true"></i> find deal with any season</h3>
+                        <form>
+                            <div class="col-sm-12">
+                                <div class="form-group">
+                                    <label>Destination, property name or address:</label>
+                                    <input type="text" class="form-control" placeholder="more places than you could ever go (but you can try!)">
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-xs-12">
+                                <div class="form-group">
+                                    <label>check-in</label>
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="fa fa-calendar" aria-hidden="true"></i></span>
+                                        <input id="date" type="text" class="form-control date" name="date" placeholder="check-in date">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-xs-12">
+                                <div class="form-group">
+                                    <label>check-out</label>
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="fa fa-calendar" aria-hidden="true"></i></span>
+                                        <input id="date" type="text" class="form-control date" name="date" placeholder="check-out date">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 col-xs-12">
+                                <div class="form-group">
+                                    <select class="form-control">
+                                    <option>2 adults</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                  </select>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 col-xs-12">
+                                <div class="form-group">
+                                    <select class="form-control">
+                                    <option>no-children</option>
+                                    <option>1 child</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                  </select>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 col-xs-12">
+                                <div class="form-group">
+                                    <select class="form-control">
+                                    <option>1 room</option>
+                                    <option>2 room</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                  </select>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-xs-12">
+                                <div class="checkbox">
+                                    <label><input type="checkbox"> I'm travelling for work</label>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-xs-12">
+                                <a href="search-result.html" class="btn btn-lg">Search</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End-search-section -->
+
+    </section>
+
+    <!-- End-slider -->
+
+    <!-- start-news-bar -->
+
+    <section class="news-bar">
+        <div class="container">
+            <div>
+                <span><i class="fa fa-bullhorn"></i> NEWS</span>
+                <marquee direction="left" behavior="scroll" onmouseover="stop()" onmouseleave="start()">
+                    <a href=""><img class="img-responsive" src="images/fav-icon.png"> This text will scroll from bottom to top</a>
+                    <a href=""><img class="img-responsive" src="images/fav-icon.png"> This text will scroll from bottom to top</a>
+                    <a href=""><img class="img-responsive" src="images/fav-icon.png"> This text will scroll from bottom to top</a>
+                    <a href=""><img class="img-responsive" src="images/fav-icon.png"> This text will scroll from bottom to top</a>
+
+                </marquee>
+                <span><a href=""> MORE</a></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- End-news-bar -->
+
+    <!-- start-page-content -->
+
+    <section class="page-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <h1>about us</h1>
+                    <p>
+                        Explore the history of the classic Lorem Ipsum passage and generate your own text using any number of characters, words, sentences or paragraphs. Commonly used as placeholder text in the graphic and print industries, Lorem Ipsum's origins extend far back
+                        to a scrambled Latin passage from Cicero in the middle ages.Explore the history of the classic Lorem Ipsum passage and generate your own text using any number of characters, words, sentences or paragraphs. Commonly used as placeholder
+                        text in the graphic and print industries, Lorem Ipsum's origins extend far back to a scrambled Latin passage from Cicero in the middle ages.Explore the history of the classic Lorem Ipsum passage and generate your own text using
+                        any number of characters, words, sentences or paragraphs. Commonly used as placeholder text in the graphic.
+                    </p>
+                </div>
+
+                <div class="col-sm-6">
+                    <h1>our mission</h1>
+                    <p>
+                        Explore the history of the classic Lorem Ipsum passage and generate your own text using any number of characters, words, sentences or paragraphs. Commonly used as placeholder text in the graphic and print industries.
+                    </p>
+                    <h1>our vission</h1>
+                    <p>
+                        Explore the history of the classic Lorem Ipsum passage and generate your own text using any number of characters, words, sentences or paragraphs. Commonly used as placeholder text in the graphic and print industries.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- End-page-content -->
+
+    <!-- start-bottom-section -->
+
+    <section class="bottom-section">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-7">
+                    <div class="map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3456.286655100036!2d31.14362991449962!3d29.971190828985616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14584f6057adc05b%3A0x75d402bfa9ca265a!2sVadecom!5e0!3m2!1sen!2seg!4v1527602737703"
+                            width="100%" height="550" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="col-sm-5">
+                    <div class="contact-data">
+                        <h3>
+                            <span>GET IN</span> TOUCH WITH US
+                        </h3>
+
+                        <form>
+                            <div class="form-group">
+                                <input class="form-control" type="text" placeholder="Name">
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" type="email" placeholder="Email">
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" type="text" placeholder="Subject">
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" rows="3" placeholder="Message"></textarea>
+                            </div>
+                            <button class="btn">SEND <i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
+                        </form>
+                    </div>
+                    <p class="address">
+                        90802 California Long beach PO Box 68789 300 East Ocean Boulevard
+                    </p>
+                    <p>
+                        +64 9 345 6758
+                    </p>
+                    <p>
+                        info@egypt4travel.net
+                    </p>
+                    <div class="social">
+                        <ul class="list-inline list-unstyled">
+                            <li>
+                                <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            </li>
+                            <li>
+                                <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            </li>
+                            <li>
+                                <a href=""><i class="fa fa-youtube" aria-hidden="true"></i></a>
+                            </li>
+                            <li>
+                                <a href=""><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <footer>
+                        <span>All rights reserved &reg; 2018 Egypt4Travel</span>
+                    </footer>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- start-bottom-section -->
+
+    <!-- script -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
+
+    <script src="js/custom.js"></script>
+
+</body>
+
+</html>

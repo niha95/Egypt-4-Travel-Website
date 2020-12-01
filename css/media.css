@@ -1,0 +1,89 @@
+@media(max-width:767px)
+{
+    .navigationbar .navbar-default .navbar-brand
+    {
+        position: static;
+        left: 0;
+        bottom: 0;
+    }
+    .navigationbar .navbar-default .navbar-brand img
+    {
+        height: 80px;
+        margin-top: -45px;
+        background: none;
+        border: 0;
+    }
+    .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover
+    {
+        padding-left: 30px;
+    }
+    .search-section
+    {
+        position: static;
+        background: rgba(69, 23, 23, 0.82);
+        color: #f48254;
+    }
+    .search-section .col
+    {
+        background: none;
+        color: none;
+        border-radius: 0;
+    }
+    .egypt4travel-slider .carousel-inner .item img
+    {
+        height: 300px;
+    }
+    .news-bar marquee
+    {
+        width: 80%;
+        padding: 10px;
+    }
+    .welcome-site .bg
+    {
+        top:-35px;
+    }
+    .welcome-site .about-site
+    {
+        margin-top: -40px;
+    }
+    footer
+    {
+        text-align: center;
+    }
+    
+    .service-page ul li
+    {
+        display: inline-block;
+    }
+    .service-page img
+    {
+        width: 100%;
+    }
+    .service-page .price
+    {
+        width: 100%;
+    }
+    .service-page .price p:last-child
+    {
+        margin: 0.5rem auto;
+        width: 200px;
+    }
+}
+@media(max-width:400px)
+{
+    .welcome-site .bg div
+    {
+        margin-left: 44%;
+    }
+    .bottom-section .social
+    {
+        margin: auto;
+        margin-top: 10px;
+        float: unset;
+        text-align: center;
+    }
+    .bottom-section .address
+    {
+        width: 100%;
+    }
+}
